@@ -1,8 +1,8 @@
 class Hash
   def keys_of(*arguments)
-    arguments.each do |key, value|
+    arguments.collect do |key, value|
       if i == value
-        array.push(key)
+        key
       end
     end
   end
