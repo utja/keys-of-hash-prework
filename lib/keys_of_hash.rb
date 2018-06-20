@@ -1,6 +1,6 @@
 class Hash
   def keys_of(*arguments)
-    arguments.each do |argument, hash|
+    arguments.each do |key, value|
       hash.each do |key, value|
         if i == value
           array.push(key)
